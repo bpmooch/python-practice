@@ -82,7 +82,7 @@ def naive_max_set(num_items, items):
                 max_start = i
                 max_end = j
                 max_sum = cur_sum
-    print("Chris Ouptut start idx: {} end idx: {}".format(max_start, max_end))
+    print("Naive Ouptut start idx: {} end idx: {}".format(max_start, max_end))
     print("max sum: {} set: {}".format(max_sum, items[max_start:max_end+1]))
 
 if __name__ == '__main__':
